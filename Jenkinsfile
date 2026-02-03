@@ -8,7 +8,7 @@ pipeline {
             }
         }
 
-        stage('Show branch info') {
+        stage('Show branch info new ') {
             steps {
                 sh '''
                     echo "BRANCH_NAME: $BRANCH_NAME"
@@ -17,7 +17,7 @@ pipeline {
                 '''
             }
         }
-
+       
 
 
 
